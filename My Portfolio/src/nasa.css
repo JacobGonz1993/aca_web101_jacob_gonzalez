@@ -1,0 +1,36 @@
+.top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./images/9dd5356081749d6540072873584a98c8.jpg);
+    height: 450px;
+    width: 850px;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-size: 10vh;
+}
+.bottom {
+    display: flex;
+
+}
+h2 {
+    text-align: center;
+    font-weight: bold;
+} 
+.bottom {
+    display: flex;
+    height: 324px;
+    width: 850px;
+    background-color: gainsboro;
+    flex-direction: row;
+}
+.bottom>div {
+    margin: 20px;
+}
+input[name="Message"] {
+    height: 75px;
+}
+.socialmedia, .officeinfo, .contactus {
+    width: 270px;
+}
