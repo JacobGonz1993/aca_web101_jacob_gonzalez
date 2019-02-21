@@ -1,0 +1,61 @@
+.all {
+    /* display: block; */
+    width: 50px;
+    margin: 0 auto;
+}
+
+.test_box {
+    /* position: relative; */
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+#one {
+    background-color: red;
+}
+#two {
+    background-color: orange;
+}
+#three {
+    background-color: yellow;
+} 
+#four {
+    background-color: green;
+}
+#five {
+    background-color: blue;
+}
+#six {
+    background-color: indigo;
+}
+#seven {
+    background-color: violet;
+}
+#eight {
+    background-color: aquamarine;
+}
+#nine {
+    background-color: royalblue;
+}
+#ten {
+    border: 1px solid black;
+    background-color: white;
+}
+#eleven {
+    background-color: yellowgreen;
+}
+#twelve {
+    background-color: peachpuff;
+}
+div:nth-child(even) {
+    transition: all 1s ease-in-out;
+}
+div:nth-child(odd) {
+    transition: all 1s ease-in-out;
+}
+.all:hover div:nth-child(even) {
+    transform: translate(-100px) rotate(180deg) scale(.5);
+}
+.all:hover div:nth-child(odd) {
+    transform: translate(100px) rotate(180deg) scale(1.5);
+}
